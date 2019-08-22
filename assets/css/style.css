@@ -267,3 +267,19 @@ input[type=submit] {
       }
 
     }
+
+    @media only screen and (max-width: 640px) {
+      .container {
+        max-width: 400px;
+        height: auto;
+        overflow: auto;
+        background-color: #ffffff;
+        margin: 0 auto;
+        float:right;
+    }
+    .auth-image {
+    width:300px;
+    float:right;
+    margin:10;
+  }
+  }
